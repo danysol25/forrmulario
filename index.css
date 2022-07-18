@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor {
+    width: 100%;
+    height: 650px;
+    background-color: rgb(54, 155, 155);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    background-color: rgb(188, 219, 219);
+    position: absolute;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(87, 82, 82);
+}
+
+form {
+    width: 100%;
+    height: 100%;
+}
+
+.titulo {
+    width: 100%;
+    height: 70px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    margin-left: 75px;
+    width: 250px;
+    height: 33px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 3px 3px rgb(160, 153, 153);
+
+}
+
+button {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 200px;
+    height: 33px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(54, 133, 106);
+    color: white;
+    box-shadow: 2px 3px 3px rgb(160, 153, 153);
+}
+
+button:hover  {
+    background-color: rgb(35, 100, 77);
+    font-weight: 600;
+}
